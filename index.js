@@ -7,7 +7,7 @@ function destructivelyAppendKitten(name){
 function removeLastKitten(){
   var array = kittens;
   kittens.pop();
-  return array;
+  return kittens;
 }
 
 function removeFirstKitten(){
