@@ -5,7 +5,7 @@ function destructivelyAppendKitten(name){
 }
 
 function removeFirstKitten(){
-  array = kittens;
+  var array = kittens;
   array.shift();
   return array;
 }
