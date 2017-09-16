@@ -4,6 +4,10 @@ function destructivelyAppendKitten(name){
   kittens.push(name);
 }
 
+function destructivelyPrependKitten(name){
+  kittens.unshift(name);
+}
+
 function appendKitten(name){
   var array = kittens;
   array.push(name);
