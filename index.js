@@ -4,6 +4,12 @@ function destructivelyAppendKitten(name){
   kittens.push(name);
 }
 
+function prependKitten(name){
+  var array = kittens;
+  array.unshift(name);
+  return array;
+}
+
 function removeLastKitten(){
   var array = kittens;
   array.pop();
